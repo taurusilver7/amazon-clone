@@ -59,6 +59,7 @@ const Payment = () => {
         setProcessing(false);
 
         history.replace("/orders");
+        // replace instead of push b/c user proceeds to order page instead of payments page.
       });
   };
 
@@ -125,7 +126,10 @@ const Payment = () => {
                   thousandSeparator={true}
                   prefix={"₹"}
                 />
-                <button disabled={processing || disabled || succeeded}>
+                <button
+                  onClick={(e) => history.push("/orders")}
+                  disabled={processing || disabled || succeeded}
+                >
                   <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
                 </button>
               </div>

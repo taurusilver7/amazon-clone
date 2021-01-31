@@ -1,4 +1,4 @@
-# Amazon Clone ₹
+# Amazon Clone
 
 > A mobile responsive amazon clone application using react js.
 

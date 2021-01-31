@@ -9,7 +9,6 @@ import Checkout from "./components/Checkout/Checkout";
 import Footer from "./components/Footer/Footer";
 import Login from "./components/Login/Login";
 import Payment from "./components/Payment/Payment";
-import Orders from "./components/Orders/Orders";
 
 import { auth } from "./firebase";
 import { useStateValue } from "./context/StateProvider";
@@ -21,12 +20,12 @@ const promise = loadStripe(
 );
 
 const App = () => {
-  const [{ cart }, dispatch] = useStateValue();
+  const [{}, dispatch] = useStateValue();
 
   useEffect(() => {
     // will only run once when the app component loads.
     auth.onAuthStateChanged((authUser) => {
-      console.log("The User is >>>", authUser);
+      // console.log("The User is >>>", authUser);
       if (authUser) {
         // user just logged in / alrdy logged on.
         dispatch({
@@ -48,10 +47,6 @@ const App = () => {
         <Switch>
           <Route path="/login">
             <Login />
-          </Route>
-          <Route path="/orders">
-            <Header />
-            <Orders />
           </Route>
           <Route path="/checkout">
             <Header />

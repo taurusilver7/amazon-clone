@@ -12,6 +12,7 @@ const Home = () => {
           src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
           alt="banner"
         />
+
         <div className="home__row">
           <Product
             id={uuidv4}
@@ -54,7 +55,12 @@ const Home = () => {
         </div>
 
         <div className="home__row">
-          <a className="home__movies" target="_blank" rel="noreferrer" href="https://www.primevideo.com/ref=atv_nb_logo">
+          <a
+            className="home__movies"
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.primevideo.com/ref=atv_nb_logo"
+          >
             <img
               className="home__movies"
               src="https://lh3.googleusercontent.com/proxy/u1FRFf1asTFzjg-Z4N6Bsp0GJ_o3KSU9RX2ft2-kBT8wJTWJ_w3F1hy1fqaPs2QocyHgQN76Ym0jze3ap0F95pUUazH3iyxFpf17qXo"
@@ -69,21 +75,51 @@ const Home = () => {
             image="https://images-na.ssl-images-amazon.com/images/I/81vlA84pg6L._SL1500_.jpg"
           />
         </div>
+        <div className="home__row">
+          <Product
+            id={uuidv4}
+            title="LG Ultragear 27 inch, 4K-UHD, Nano IPS 144Hz, 1ms G-Sync Compatible Gaming Monitor - with VESA HDR 600 - Display Port, HDMI, USB up/Down, HAS Stand, RGB Sphere Lighting - 27GN950 (Black)"
+            price={68899.0}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/71Cn04gV7bL._SL1500_.jpg"
+          />
+          <Product
+            id={uuidv4}
+            title="HyperX Cloud Core + 7.1 Gaming Headset for PC, PS4, Xbox One, Nintendo Switch, and Mobile Devices (HX-HSCC-2-BK/WW)"
+            price={5990.0}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/5164Sqd8b-L._SL1024_.jpg"
+          />
+          <Product
+            id={uuidv4}
+            title="Kobo Fitness TM-307 (3.0 HP) A.C Motorized Semi Commercial Auto Incline Treadmill and Free Installation Assistance, Full Display LED Screen, Others AC Motor Semi Commercial Treadmill"
+            price={69999.0}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/71-O24CBnGL._SL1500_.jpg"
+          />
+          <Product
+            id={uuidv4}
+            title="F Gear Hunter 75 Ltrs Black Rucksack (Black, Grey Diamond)"
+            price={1565.0}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/81MdGzlqdAL._SL1500_.jpg"
+          />
+        </div>
 
         <div className="home__row">
           <Product
             id={uuidv4}
-            title="Bildos 3 Ply CE,ISO & GMP Certified Face Masks with Adjustable Nose Clip and Ultrasonic sealed ear loop With Melt blown Layer to assure BFE>95% (100)"
-            price={349.0}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81noEGxuqWL._UL1500_.jpg"
+            title="Emporio Armani Analog Grey Dial Women's Watch-AR11062"
+            price={10195.0}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/71xcJ62Uy7L._UL1500_.jpg"
           />
           <Product
-            image="https://images-na.ssl-images-amazon.com/images/I/813gUaNgjyL._SL1500_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/91WjKq-exJL._UL1500_.jpg"
             id={uuidv4}
             rating={3}
-            price={399.0}
-            title="Steelbird YS-47 7Wings Unisex Helmet Visor Face Shield, Static Full Face Protector For Each and Everyone (Pack of 1)"
+            price={699.0}
+            title="Miss Olive Women's Wrap Knee-Long Dress"
           />
           <Product
             image="https://images-na.ssl-images-amazon.com/images/I/8196IP4I8cL._SL1500_.jpg"
@@ -100,13 +136,6 @@ const Home = () => {
             price={1999.0}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/81hxQATJMiL._SL1500_.jpg"
-          />
-          <Product
-            id={uuidv4}
-            title="Like Star 3.5mm Clip Microphone for YouTube | Collar Mike for Voice Recording | Lapel Mic Mobile, PC, Laptop, Android Smartphones, DSLR Camera Microphone Microphone"
-            price={2499.0}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/41M1i9RyK1L.jpg"
           />
           <Product
             id={uuidv4}
