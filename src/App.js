@@ -50,7 +50,7 @@ const App = () => {
           </Route>
           <Route path="/payment">
             <Header />
-              <Payment />
+            <Payment />
           </Route>
           <Route path="/">
             <Header />
