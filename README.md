@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Amazon Clone
+> A react powered web shopping clone without payment functionality.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
