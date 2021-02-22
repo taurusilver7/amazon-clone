@@ -20,6 +20,12 @@
 * The data layer is provided by react context-api with one reducer & stateprovider.
 * The get & post requests are processed by `axios`
 
+## Dependencies
+* material-ui/core, material-ui/icons
+* react-currency-format
+* stripe/react-stripe-js
+* 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -28,7 +34,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
