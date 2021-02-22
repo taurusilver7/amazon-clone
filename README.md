@@ -1,5 +1,15 @@
 # Amazon Clone
-> A react powered web shopping clone without payment functionality.
+> A react powered web shopping clone without payment functionality. The funcionality involves front-end.
+
+
+## About the Appication
+> Amazon.com, Inc. is an American multinational technology company based in Seattle, Washington, which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence.
+
+## Components
+- Header
+- Navbar
+- Home
+- Product
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
