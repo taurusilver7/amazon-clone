@@ -13,7 +13,12 @@
 - Checkout
 - CheckoutProduct
 - Subtotal
-- 
+- Login
+- Payment
+- Footer
+
+* The data layer is provided by react context-api with one reducer & stateprovider.
+* The get & post requests are processed by `axios`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
