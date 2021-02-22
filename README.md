@@ -10,6 +10,10 @@
 - Navbar
 - Home
 - Product
+- Checkout
+- CheckoutProduct
+- Subtotal
+- 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
