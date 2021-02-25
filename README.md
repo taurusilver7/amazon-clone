@@ -5,6 +5,10 @@
 ## About the Appication
 > Amazon.com, Inc. is an American multinational technology company based in Seattle, Washington, which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence.
 
+<p align="center">
+    <img width="300" src="e-commerce.png" alt="image" />
+</p>
+
 ## Components
 - Header
 - Navbar
